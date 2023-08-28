@@ -10,7 +10,7 @@ function Stack({ children, spacing = 2, direction = 'row', wrap = false }) {
 
 Stack.propTypes = {
   spacing: propTypes.number,
-  wrap: PropTypes.bool,
+  // wrap: PropTypes.bool,
   direction: PropTypes.oneOf(['row', 'column']),
 };
 
